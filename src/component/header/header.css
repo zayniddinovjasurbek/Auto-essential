@@ -1,0 +1,39 @@
+
+.contact-info {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: #868686;
+    padding: 20px;
+}
+
+.contact-item {
+    display: flex;
+    color: #ffffff;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 20px;
+    margin:0px 50px;
+}
+
+.contact-item p {
+    margin: 0;
+}
+
+.contact-item a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.seller-button {
+    background-color: #4E4B4B;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.seller-button:hover {
+    background-color: #666;
+}

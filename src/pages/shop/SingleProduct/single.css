@@ -1,0 +1,226 @@
+  .breadcrumb {
+    font-size: 16px;
+    margin-bottom: 20px;
+    padding: 50px 90px;
+  }
+  
+.breadcrumb Link {
+    color: black;
+    text-decoration: none;
+} 
+.product-details {
+    display: flex;
+    justify-content: space-around;    
+}
+
+.main-image img {
+    width: 450px;
+    height: 470px;
+    border: 2px solid black;
+    background-color: #E6E6E6;
+    border: none;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.image-gallery {
+    display: flex;
+}
+    
+.thumbnail-images {
+    padding: 0 50px;
+    display: flex;
+    flex-direction: column;
+}
+.thumbnail {
+    border: 3px solid black;
+    border: none;
+    border-radius: 15px;
+    background:#E6E6E6;
+    margin:9px;
+    width: 83px;
+    height: 81px;
+}
+
+.product-info h1 {
+    font-size: 42px;
+}
+.price {
+    padding: 10px 0px;
+    font-size: 24px;
+    color: #9F9F9F;
+}
+.hause {
+    padding: 10px 0;
+    font-size: 15px;
+    font-weight: 700;
+}
+.hause span {
+    padding-left: 20px;
+    color: #9F9F9F;  
+}
+.description {
+    font-size: 13px;
+    line-height: 19.5px;
+}
+
+.size p{
+    color: #9F9F9F;
+
+}
+
+.sizes {
+    display: flex;
+}
+
+.toggle-button {
+    font-size: 13px;
+    background-color: #FAF4F4; /* Asl holat rangi */
+    color: black;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+    transition: background-color 0.3s ease;
+    width: 30px;
+    height: 30px;
+  }
+  
+  .toggled {
+    background-color: #ffe798;
+  }
+
+.color{
+    margin: 15px 0px;
+    font-size: 14px;
+    color: #9F9F9F;
+    line-height: 21px;
+}
+
+.color-black {
+    border: 3px solid black;
+    background: black ;
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    margin: 20px 0px;
+}
+
+
+.quantity-selector-container {
+    display: flex;
+    align-items: center;
+
+  }
+  
+  .quantity-selector {
+    display: flex;
+    align-items: center;
+    border: 1px solid lightgray;
+    border-radius: 7px;
+    margin: 23px 10px 15px 0px ;
+  }
+  
+  .quantity-button {
+    background-color: white;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .quantity-display {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  
+  .add-to-cart-button {
+    background-color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-to-cart-button:hover {
+    background-color: lightgray;
+  }
+
+  hr {
+    color: #D9D9D9;
+    margin: 40px 0px;
+  }
+
+  .product-meta {
+    color: #9F9F9F;
+    margin-top: 20px;
+    font-size: 16px;
+  }
+  
+  .product-meta p {
+    margin: 5px 0;
+  }
+  
+  .share {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+  
+  .share p {
+    margin-right: 10px;
+  }
+  
+  .share-icon {
+    margin-right: 15px;
+    cursor: pointer;
+    color: black;
+    font-size: 20px;
+  }
+  
+  .share-icon {
+    margin-right: 10px;
+    cursor: pointer;
+  }
+
+
+  
+  .product-tabs {
+    color: #9F9F9F;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 50px;
+  }
+  
+  .product-tabs h6 {
+    cursor: pointer;
+    font-size: 24px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .product-tabs button.active {
+    background-color: lightgray;
+  }
+  
+  .product-description {
+    margin-top: 40px;
+  }
+  .information p {
+    align-items: justify;
+    text-align: center;
+  }
+  
+  .additional-images {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+
+  }
+  
+  .additional-images img {
+    width:605px ;
+    height: 356.37px;
+}

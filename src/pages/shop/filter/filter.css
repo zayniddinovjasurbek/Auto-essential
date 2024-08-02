@@ -1,0 +1,35 @@
+.Filter {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 10px;
+    background: #D4D4D4;
+    gap: 20px;
+    margin: 20px 0px;
+}
+.filterm {
+    font-size: 20px;
+    display: flex;
+    gap: 30px;
+}
+.filterm h6{
+    font-size: 16px;
+}
+.sort {
+    display : flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sort input {
+    text-align: center;
+    width: 45px;
+    height: 45px;
+    border: 1px solid white;
+    margin: 0px 20px ;
+    border-radius: 10px;
+
+}
+.sort .defauld {
+    width: 188px;
+    }

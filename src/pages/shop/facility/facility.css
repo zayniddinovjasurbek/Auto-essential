@@ -1,0 +1,13 @@
+.facility {
+    display: flex;
+    justify-content: space-around;
+    background: #D4D4D4;
+    padding: 60px 0px;
+}
+
+h3{
+    font-size: 32px;
+}
+p {
+    font-size: 20px;
+}

@@ -1,0 +1,36 @@
+.servise {
+    background: #F5F5F5; 
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+
+.servise img {
+    padding-top: 100px;
+}
+
+.Lubricants h3 {
+    font-size: 36px;
+    padding: 35px 0px;
+}
+
+.Lubricants a{
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    border-bottom: 3px solid black;
+}
+
+.Spare-Parts h3 {
+    font-size: 36px;
+    padding: 35px 0px;
+}
+
+.Spare-Parts a{
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    border-bottom: 3px solid black;
+}
