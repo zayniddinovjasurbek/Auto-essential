@@ -43,7 +43,7 @@ function Single() {
     <div className="product-page">
       <div className="breadcrumb">
         <Link to="/">Home</Link> <MdChevronRight /> <Link to="/shop">Shop</Link> 
-        <MdChevronRight /> <Link to="#">Tire</Link>
+        <MdChevronRight /> <div style={{width: '2px', height: '22px', background: '#000', padding: '0px '}}></div> <Link to="#">Tire</Link>
       </div>
     
       <div className="product-details">

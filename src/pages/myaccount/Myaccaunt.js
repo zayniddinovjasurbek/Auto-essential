@@ -1,11 +1,11 @@
 import React from 'react';
-import MyAccaunt from './Rectangle 1'
+import myaccaunt from './Rectangle 1.png'
 
 function Myaccaunt() {
   return (
     <div>
-      <img src={MyAccaunt} alt="MyAccaunt" className="MyAccaunt`  " />
-    </div>
+      <img src={myaccaunt} alt="MyAccaunt" />
+      </div>
   );
 }
 
