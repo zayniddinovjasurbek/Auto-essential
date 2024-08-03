@@ -26,7 +26,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/tools" element={<Tools />} />
         <Route path="/single" element={<Single />} />
-        <Route path='/myAccaunt' component={<Myaccaunt/>}/>
+        <Route path="/MyAccaunt" element={<Myaccaunt />} />
       </Routes>
       <Footer />
     </div>

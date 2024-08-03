@@ -45,10 +45,10 @@ function Navbar  ()  {
           </ul>
         </nav>
         <div className="icons">
-          <FiUserCheck />
-          <IoSearch />
-          <IoMdHeartEmpty />  
-          <MdOutlineShoppingCart />
+         <Link to="/myAccaunt"><FiUserCheck /></Link> 
+         <Link to="/"><IoSearch /></Link> 
+         <Link to="/"><IoMdHeartEmpty /></Link>
+         <Link to="/"><MdOutlineShoppingCart /></Link>
         </div>
       </header>
     </div>
