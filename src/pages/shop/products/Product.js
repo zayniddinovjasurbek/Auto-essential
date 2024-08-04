@@ -86,30 +86,31 @@ const Product = () => {
         </div>    
 
         <div className='product 8-12'>
-            <Link to='/single' >
+            <Link to='/single' className='single-products-tire'>
                 <img src={product9} alt="product9"  />
                 <p>Tire <br />
                 Shope: Tire house</p>
                 <h2>Rs. 25,000.00</h2>
             </Link>
-            <div>
+
+            <Link to='/single' className='single-products-tire' >
                 <img src={product10} alt="product10" />
                 <p>Tire <br />
                 Shope: Tire house</p>
                 <h2>Rs. 25,000.00</h2>
-            </div>
-            <div>
+            </Link>
+            <Link to='/single' className='single-products-tire'>
                 <img src={product11} alt="product11" />
                 <p>Tire <br />
                 Shope: Tire house</p>
                 <h2>Rs. 25,000.00</h2>
-            </div>
-            <div>
+            </Link>
+            <Link to='/single' className='single-products-tire'>
                 <img src={product12} alt="product12" />
                 <p>Tire <br />
                 Shope: Tire house</p>
                 <h2>Rs. 25,000.00</h2>
-            </div>
+            </Link>
         </div>
 
         <div className='product 12-16'>

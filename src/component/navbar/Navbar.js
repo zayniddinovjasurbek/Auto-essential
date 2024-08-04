@@ -45,7 +45,7 @@ function Navbar  ()  {
           </ul>
         </nav>
         <div className="icons">
-         <Link to="/myAccaunt"><FiUserCheck /></Link> 
+         <Link to="/my_accaunt_banner"><FiUserCheck /></Link> 
          <Link to="/"><IoSearch /></Link> 
          <Link to="/"><IoMdHeartEmpty /></Link>
          <Link to="/"><MdOutlineShoppingCart /></Link>
