@@ -1,29 +1,30 @@
 .my-accaunt-banner {
-    position: relative; /* This makes the inner elements positioned relative to this container */
-  }
-  
-  .my-accaunt-img img {
-    display: block; /* Ensures the image takes up the full width of its container */
-    width: 100%; /* Make the image responsive */
-  }
-  
-  .my-accaunt-text {
-    position: absolute; /* Allows positioning of this element relative to .my-accaunt-banner */
-    bottom: 20px; /* Adjust this value to position the text up from the bottom */
-    left: 50%; /* Center horizontally */
-    transform: translateX(-50%); /* Adjust for exact centering */
-    color: white; /* Ensure the text is visible on the background */
-    text-align: center; /* Center align text and logo horizontally */
-    z-index: 1; /* Ensure text and logo appear on top of the background image */
-  }
-  
-  .my-accaunt-text img {
-    display: block; /* Makes sure the image does not have extra space below */
-    margin: 0 auto; /* Center the logo image horizontally */
-  }
-  
-  .my-accaunt-text h1 {
-    margin: 10px 0; /* Adjusts the space between the logo and the heading */
-    font-size: 24px; /* Adjust as needed */
-  }
-      
+  background-image: url(Rectangle\ 1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 316px;
+}
+
+.my-accaunt-text h1{
+  display: flex;
+  justify-content: center;
+  font-size: 45px;
+  padding-top: 150px;
+}
+
+.path {
+  padding-top: 20px;
+
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+}
+.path h2 {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.path p {
+  font-size:16px ;
+}
+

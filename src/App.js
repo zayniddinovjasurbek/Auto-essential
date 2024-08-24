@@ -11,6 +11,9 @@ import Contact from "./pages/contact/Contact";
 import Tools from "./pages/tools/Tools";
 import Single from './pages/shop/SingleProduct/Single';
 import My_accaunt_banner from './pages/myaccount/banner/My_accaunt_banner'
+import Checkout from "./pages/checkout/checkout-banner/Checkout_banner";
+import CardBanner from "./pages/cart/card-banner/CardBaner";
+
 
 function App() {
   return (
@@ -27,6 +30,8 @@ function App() {
         <Route path="/tools" element={<Tools />} />
         <Route path="/single" element={<Single />} />
         <Route path="/my_accaunt_banner" element={<My_accaunt_banner />} />
+        <Route path="/checkout" element={<Checkout/>} />
+        <Route path="/card-banner" element={<CardBanner />} />
       </Routes>
       <Footer />
     </div>

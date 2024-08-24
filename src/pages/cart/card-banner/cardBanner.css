@@ -1,0 +1,8 @@
+.card-banner{
+    background-image: url(Rectangle.png);
+    height: 316px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
