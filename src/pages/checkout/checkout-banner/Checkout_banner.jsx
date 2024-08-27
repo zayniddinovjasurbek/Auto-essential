@@ -1,5 +1,6 @@
 import "./Checkout_banner.css";
 import { FaAngleRight } from "react-icons/fa6";
+import Facility2 from "../../shop/facility2/Facility2" 
 
 const Checkout_banner = () => {
   return (
@@ -18,11 +19,11 @@ const Checkout_banner = () => {
       <form className="billing-form">
 
       <div class="form-row">
-        <div class="form-contaioner">
+        <div class="form-container">
           <label for="firstInput">First Input</label>
           <input type="text" id="firstInput" />
         </div>
-        <div class="form-contaioner">
+        <div class="form-container">
           <label for="secondInput">Second Input</label>
           <input type="text" id="secondInput" />
         </div>
@@ -109,8 +110,7 @@ const Checkout_banner = () => {
         </div>
       </div>
 
-      
-    
+    <Facility2 />
     </>
   );
 };

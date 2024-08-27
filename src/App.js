@@ -1,6 +1,7 @@
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
-
+import { useEffect } from "react";
+import { useLocation}  from "react-router-dom"
 import Header from './component/header/Header'
 import Footer from "./component/footer/Footer"; 
 import Navbar from "./component/navbar/Navbar";
@@ -15,7 +16,13 @@ import Checkout from "./pages/checkout/checkout-banner/Checkout_banner";
 import CardBanner from "./pages/cart/card-banner/CardBaner";
 
 
+
 function App() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
   return (
     <div className="App">
       <Routes>

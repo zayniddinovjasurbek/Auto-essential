@@ -13,7 +13,7 @@ const Banner = () => {
         </div>
         <div className='shop-text-content' >
             <h1>SHOP</h1>
-            <h4><Link to='/' style={{color:'black', textDecoration:'none'}}>Home <FaAngleRight /></Link> Shop</h4>
+          <div className=''><h4><Link to='/' style={{color:'black', textDecoration:'none'}}>Home </Link> <FaAngleRight /> Shop</h4></div>  
         </div>
     </div>
   )

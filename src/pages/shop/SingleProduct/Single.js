@@ -17,8 +17,8 @@ import { Link } from 'react-router-dom';
 
 function Single() {
   const [quantity, setQuantity] = useState(1);
-  const [activeButtons, setActiveButtons] = useState([false, false, false]); // Har bir tugma uchun holat
-  const [activeTab, setActiveTab] = useState('description'); // Faol tab uchun holat
+  const [activeButtons, setActiveButtons] = useState([false, false, false]);
+  const [activeTab, setActiveTab] = useState('description');
 
   const increaseQuantity = () => {
     setQuantity(prevQuantity => prevQuantity + 1);
@@ -42,8 +42,8 @@ function Single() {
   return (
     <div className="product-page">
       <div className="breadcrumb">
-        <Link to="/">Home</Link> <MdChevronRight /> <Link to="/shop">Shop</Link> 
-        <MdChevronRight /> <div style={{width: '2px', height: '22px', background: '#000', padding: '0px '}}></div> <Link to="#">Tire</Link>
+        <Link to="/" style={{color:"black", textDecoration: "none"}}>Home</Link> <MdChevronRight /> <Link to="/shop"  style={{color:"black", textDecoration: "none"}} >Shop</Link> 
+        <MdChevronRight /> <div style={{width: '2px', height: '22px', background: '#000', padding: '0px '}}></div> <Link to="#"  style={{color:"black", textDecoration: "none"}}>Tire</Link>
       </div>
     
       <div className="product-details">

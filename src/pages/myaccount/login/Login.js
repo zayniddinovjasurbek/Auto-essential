@@ -1,7 +1,6 @@
 import React from "react";
 import "./login.css";
-import Facility from "../../shop/facility/Facility";
-
+import Facility2 from "../../shop/facility2/Facility2.jsx"
 const Login = () => {
   return (
     <>
@@ -36,7 +35,7 @@ const Login = () => {
         </div>
 
       </div>
-      <Facility />
+      <Facility2/>
     </>
   );
 };

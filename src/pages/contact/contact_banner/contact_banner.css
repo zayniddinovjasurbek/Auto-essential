@@ -1,0 +1,33 @@
+.contact-banner {
+    background-image: url(Rectangle\ 1\ \(2\).png);
+    height: 316px;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover  ;
+}
+
+#info {
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.div{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    font-size: 18px;
+}
+.link {
+    color: black    ;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+h1{
+    font-size: 48px;
+}

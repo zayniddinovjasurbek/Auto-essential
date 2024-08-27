@@ -17,3 +17,10 @@
     align-items: center;
     justify-content: center;
 }
+
+.shp-banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

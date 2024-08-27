@@ -55,7 +55,7 @@
     gap: 25px;
   }
   
-  .form-contaioner {
+  .form-container {
     display: flex;
     flex-direction: column;
   }
@@ -70,7 +70,7 @@
     padding: 8px;
     font-size: 14px;
     border: 1px solid #ccc;
-    border-radius: 1px;
+    border-radius: 10px;
     width: 251px;
     height: 55px;
   }
@@ -158,6 +158,10 @@
   .payment-method {
     margin-bottom: 20px;
   }
+  .payment-method input {
+    margin: 20px 0px;
+    gap: 20px;
+  }
   
   .payment-method label {
     display: block;
@@ -194,7 +198,7 @@
   }
   
   .place-order-button:hover {
-    background-color: #000;
+    background-color: grey;
     color: #fff;
   }
   
